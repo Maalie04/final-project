@@ -74,7 +74,7 @@ db.once("open", async () => {
     {
       name: "Shaving",
       description: "Prices vary",
-      image: "20.00",
+      image: "",
       category: categories[1]._id,
       price: "20.00",
     },
@@ -95,7 +95,7 @@ db.once("open", async () => {
     {
       name: "Eye-Liner",
       description:
-        "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "This waterproof, smudge-proof eyeliner powered by Semi-Permanent Micropigment Technology™ glides on smoothly to deliver highly pigmented color that brightens, defines and sets in 30 seconds. ",
       image: "Eyeliner.png",
       category: categories[0]._id,
       price: 31.98,
@@ -116,7 +116,7 @@ db.once("open", async () => {
       description:
         "Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.",
       image: "Manicure.png",
-      price: 7.99,
+      price: 12.99,
       quantity: 20,
     },
     {
@@ -143,7 +143,7 @@ db.once("open", async () => {
       description:
         "Advanced Full Density Conditioner helps make thin hair look and feel thicker and healthier. Formulated with biotin, zinc PCA, and Gluco-Omega Blend, this lightweight conditioner strengthens and conditions each individual strand to nourish and fortify hair to create more body and shine.",
       image: "ProfessionalConditioner.png",
-      price: 7.99,
+      price: 15.79,
       quantity: 20,
     },
     {
@@ -170,7 +170,7 @@ db.once("open", async () => {
       description:
         "A scalp treatment is like a cleansing mask for your head. The treatments come in a variety of forms, such as foams, sprays and oils, and the goal of these is to detoxify your scalp, bring in moisture, or treat issues such as eczema and psoriasis.",
       image: "MenScalpTreatment.png",
-      price: 399.99,
+      price: 20.99,
       quantity: 30,
     },
     {
